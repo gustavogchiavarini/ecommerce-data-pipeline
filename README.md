@@ -1,8 +1,8 @@
 Ecommerce Data Pipeline
 
-Este projeto é uma simulação de um pipeline de dados para um ecommerce. Ele representa um fluxo de extração, transformação e carregamento (ETL) de dados brutos até um formato pronto para análise.
+Projeto de pipeline de dados desenvolvido com foco em **ETL (Extração, Transformação e Carga)** usando Python e boas práticas de organização de código.
 
-Objetivo
+## Objetivo
 
 Demonstrar, na prática, as principais etapas de um pipeline de dados com foco em:
 
@@ -17,6 +17,7 @@ Tecnologias e Ferramentas
 - Python 
 - Pandas
 - Git & GitHub
+- VScode
 
 Como usar
 
@@ -27,15 +28,11 @@ Instale as dependências:
 pip install -r requirements.txt
 
 Execute o pipeline:
-
-bash
-Copiar
-Editar
 python src/pipeline.py
 
 Etapas do Pipeline
 
-Extração dos dados fictícios de ecommerce (pode ser de um arquivo .csv)
+Extração dos dados de ecommerce (pode ser de um arquivo .csv)
 Transformação para limpar, filtrar e enriquecer os dados
 Carga dos dados em um novo arquivo .csv pronto para análise
 
